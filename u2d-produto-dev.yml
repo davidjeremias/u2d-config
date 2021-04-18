@@ -1,2 +1,5 @@
-test:
-  config: My config profile develpment
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
