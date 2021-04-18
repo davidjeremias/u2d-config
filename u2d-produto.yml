@@ -1,3 +1,14 @@
+# SERVIDOR
+server:
+  port: ${PORT:0}
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      
 spring:
   application:
     name: u2d-produto
