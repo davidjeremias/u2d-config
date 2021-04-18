@@ -12,11 +12,6 @@ spring:
           lob:
             non_contextual_creation: true
 
-  #ATIVANDO MIGRACAO DO FLYWAY
-  flyway:
-    enabled: true
-    baseline-on-migrate: true
-
   #NAO ACEITAR ATRIBUTOS DESCONHECIDOS PELA API
   jackson:
     deserialization:
