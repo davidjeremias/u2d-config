@@ -1,1 +1,7 @@
-test.config: My config production profile
+spring:
+  datasource:
+    platform: postgres
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://35.193.157.60:5432/db_produto
+    username: postgres
+    password: 415782
